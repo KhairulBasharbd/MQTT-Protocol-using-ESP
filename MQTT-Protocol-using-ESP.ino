@@ -4,11 +4,11 @@
 
 
 //WiFi ceredential:
-const char* ssid = "STELLAR"; //chnage here
-const char* password = "stellarBD"; //change here
+const char* ssid = "STELLAR"; //EDIT HERE
+const char* password = "stellarBD"; //EDIT HERE
 WiFiClient espClient;
 //MQTT Server:
-const char* mqtt_server = "www.stellarbd.com"; //change here
+const char* mqtt_server = "www.stellarbd.com"; //EDIT HERE
 PubSubClient client(espClient);
 
 
@@ -61,10 +61,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
     Serial.print((char)payload[i]);
   }
   Serial.println();
-
-  //////////////////////////////////////////
-  //////////////////////////////////////////
-  // ADD CODE BELOW IF YOU NEED ////////////
  }
 
 void reconnect() {
