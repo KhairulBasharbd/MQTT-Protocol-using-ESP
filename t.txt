@@ -1,0 +1,13 @@
+To understand what a remote repository is, it’s important to first understand that 
+Git stores and operates on your data in your local file system. In fact, Git is 
+referred to as a distributed version control system because the 
+source code is stored, or distributed, locally across any number of computers and 
+servers. This is different from many of the source control tools that preceded Git.
+
+Those tools were known as centralized version control systems (SVN or Subversion are 
+the most well known examples), and they only operated on data hosted on a server by 
+uploading changes in real time.
+
+This meant that everybody always had access to the same data, because they were all
+ working from the same server, but changes were slow to update and relied on a stable 
+internet connection at all times.

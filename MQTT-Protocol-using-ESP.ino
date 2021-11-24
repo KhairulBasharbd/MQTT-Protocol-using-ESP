@@ -1,4 +1,5 @@
 //I am Khairul.
+//I am from Bangladesh
 
 
 
@@ -66,6 +67,22 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
   Serial.println();
  }
+//It’s possible to inadvertently configure your local repository wrong if 
+//you don’t totally get what the commands that you’re running mean, or if you 
+//cloned a repository that already has a remote with the name “origin” configured.
+
+//To help you avoid making this mistake again, let’s unpack the concept of remote 
+//repositories a little. This error is usually caused by misunderstanding one of s
+//everal things: what a remote repository is, how the `remote` command
+ //works, or more specifically what “origin” part of these commands means.
+
+
+
+
+
+
+
+
 
 void reconnect() {
   // Loop until we're reconnected
